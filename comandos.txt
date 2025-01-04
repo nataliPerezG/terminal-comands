@@ -1,0 +1,79 @@
+1. ls: Listar Contenidos de Directorio
+-- opciones:
+-l: resultados en formato largo
+-a: incluye archivos y directorios ocultos
+
+2. cd: cambiar directorio.
+3. ..: un nivel atrás.
+4. - : directorio anterior.
+5- ~ : vuelve a home.
+
+6. mkdir: crear directorios.
+7. rmdir: elimina el directorio (solo si está vacío).
+8. rm: elimina archivos.
+-- opciones:
+-r: elimina directorios con su contenido.
+-i: solicita confirmación antes de eliminar.
+-f: fuerza la eliminación, anula las confirmaciones.
+
+9. touch: crea un nuevo archivo vacío. Si ya existe, actualiza la marca de tiempo.
+10. cp: copiar archivos y directorios.
+-- opciones:
+-r: copia también el contenido de los directorios.
+
+11. mv: mueve o renombra archivos y directorios.
+
+12. du: estima el uso del espacio de un archivo.
+--opciones:
+-h: muestra los tamaños en un formato fácil de leer.
+-s: muestra solo el tamaño total para un directorio.
+
+13. pwd: imprime la ruta del directorio actual.
+
+14. tar: archiva varios elementos (comprimir)
+15 zip, unzip: comprimir y extraer archivos.
+
+15. cat: lista el contenido de los archivos en la salida estandar.
+
+16. chmod: modifica los permisos
+17. chown: cambia la propiedad de un archivo o directorio.
+
+18. sudo: ejecuta los comandos con persmisos de root.
+
+19. ps: muestra los procesos en ejecución.
+20. top: muestra los procesos en ejecución.
+21. kill: termina un programa que no responde utilizando su id
+
+22. df: comprueba el uso de espacio en disco 
+
+23. uname: imprime información sobre la máquina.
+--opciones:
+-a: toda la información
+-s: el nombre del núcleo.
+-n: el nombre del host.
+
+24. wget: descargar archivos de internet.
+
+25. apt-get: gestionar las bibliotecas de paquetes-
+--opciones:
+update: sincronizar los archivos del paquete desde sus fuentes.
+upgrade: instalar la úlitma versión de los paquetes instalados.
+check: actualizar la chaché de paquetes y comprobar dependencias rotas.
+
+26. man: manual de usuario de cualquier comando
+
+27. echo: muestra una línea de texto como salida estándar.
+
+28. alias: establecer alias temporales.
+29. unalias: quitar alias configurados.
+
+30. passwd: cambiar la contraseña de la cuenta de usuario.
+
+31. whoami: muestra el nombre del usuario actual.
+
+32. whatis: muestra que hace un comando
+
+
+33. shutdown: apagar el compu.
+con now(ahora mismo), o con una fecha para programar el apagado.
+
